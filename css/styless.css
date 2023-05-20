@@ -1,0 +1,32 @@
+body{font-family: 'Bruno Ace', cursive;
+    font-family: 'Shadows Into Light', cursive;
+    font-family: 'Teko', sans-serif;
+}
+
+
+
+.contenedor{
+    display: grid;
+    grid-template-columns: 100px  100px  100px 100px; 
+    grid-template-rows: 100px 100px 100px 100px 100px;
+    gap: 5px;
+
+}
+.contenedor .item{
+    font-size: 30px;
+    background-color: rgb(95, 29, 116);
+    color: wheat;
+   
+
+    
+
+}
+.contenedor .item:hover{
+    background-color: rgb(170, 58, 164);
+    cursor: pointer
+}
+.contenedor .item.uno{
+    grid-column: 1/5;
+    background-color: rgb(141, 98, 151);
+    
+}
